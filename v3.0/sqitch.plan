@@ -1,0 +1,6 @@
+%syntax-version=1.0.0
+%project=flipr
+%uri=https://github.com/theory/sqitch-intro/v2.0
+
+init 2020-09-15T10:04:28Z Marge N. O’Vera <marge@example.com> # to initiat release
+@v3.0.0-dev0 2020-09-15T10:08:56Z Marge N. O’Vera <marge@example.com> # empty tag for revert

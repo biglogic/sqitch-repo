@@ -1,0 +1,5 @@
+1.createdb flipr_test
+2.sqitch --registry sqitch_v2.0 deploy db:pg:flipr_test
+3.sqitch --registry sqitch_v2.0 revert db:pg:flipr_test
+4.sqitch tag -n"note"
+5.sqitch --registry sqitch_v3.0 deploy db:pg:flipr_test --to @v2.0.0-dev1 

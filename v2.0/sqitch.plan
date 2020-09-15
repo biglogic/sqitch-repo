@@ -1,0 +1,8 @@
+%syntax-version=1.0.0
+%project=flipr
+%uri=https://github.com/theory/sqitch-intro/v2.0
+
+myschema 2020-09-15T04:29:41Z Marge N. O’Vera <marge@example.com> # my schema
+
+addtable 2020-09-15T08:26:12Z Marge N. O’Vera <marge@example.com> # add table to schema
+@v2.0.0-dev1 2020-09-15T09:53:48Z Marge N. O’Vera <marge@example.com> # version 2
